@@ -1,5 +1,7 @@
 #Hierarchical Risk Parity Algorithm
 
+![hierarchical risk parity](https://user-images.githubusercontent.com/70860455/186007203-6d8c8fdf-d982-4dbf-b620-e6381b6f56bd.JPG)
+
 Portfolio Optimisation has always been a hot topic of research in financial modelling and rightly so – a lot of people and companies want to create and manage an optimal portfolio which gives them good returns. There is an abundance of mathematical literature dealing with this topic such as the classical Markowitz mean variance optimisation, Black-Litterman models and many more. Specifically, Harry Markowitz developed a special algorithm called the Critical Line Algorithm (CLA) for this purpose which proved to be one of the many algorithms which could be used in practical settings. However, the algorithm comes with its own set of caveats – 
 
 1. The CLA algorithm involves the inversion of a positive-definite covariance matrix and this makes it unstable to the volatility of the stock-market – the inverse of the covariance matrix can change significantly for small changes in market correlations.
